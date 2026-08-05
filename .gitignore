@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editors
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# Runtime/generated files
+*.log
+bus_result*.jpg
+*_eval.md
+VOC/quantify_dataset/data.txt
+VOC/quantify_dataset/.omo/
+VOC/quantify_dataset/__pycache__/
+
+# Extracted datasets are restored from datasets/*.tar.part-* (Git LFS)
+VOC/train/
+VOC/val/
+VOC/quantify_dataset/*.jpg
+VOC/quantify_dataset/*.jpeg
+VOC/quantify_dataset/*.png
+VOC/quantify_dataset/*.bmp
+
+# Optional local video asset
+spiderman.mp4

@@ -1,0 +1,20 @@
+{
+  "model_parameters": {
+    "onnx_model": "models_yolov8s/yolov8s_relu_50.onnx"
+  },
+  "calibration_parameters": {
+    "input_parameters": [
+      {
+        "color_format": "rgb",
+        "preprocess_file": "preprocess.py:preprocess_impl",
+        "data_list_path": "VOC/quantify_dataset/data.txt"
+      }
+    ]
+  },
+  "quantization_parameters": {
+    "truncate_var_names": [
+      "/model.22/Mul_2_output_0",
+      "/model.22/Sigmoid_output_0"
+    ]
+  }
+}
