@@ -13,8 +13,8 @@
   },
   "quantization_parameters": {
     "truncate_var_names": [
-      "/model.22/Mul_2_output_0",
-      "/model.22/Sigmoid_output_0"
+      "/model.22/Concat_1_output_0",
+      "/model.22/Concat_output_0"
     ]
   }
 }
